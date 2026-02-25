@@ -1,7 +1,7 @@
 # Apuntes_Graficacion-
 Alumno: Luis Angel Rodriguez Flores  
 
-Materia: TOPICOS AVANZADOS DE PROGRAMACION
+Materia: Graficación
 
 ---
 
