@@ -4,203 +4,63 @@ Alumno: Luis Angel Rodriguez Flores
 Materia: Graficación
 
 ---
+### 1.1. Historia y evolución de la graficación por computadora
 
-# Introducción
+La graficación por computadora es la rama de la informática encargada de la creación, representación y manipulación de imágenes mediante sistemas digitales. Su desarrollo ha estado estrechamente vinculado con el avance de la tecnología computacional, tanto en hardware como en software.
 
-En este repositorio se presenta el desarrollo de los temas correspondientes a la **Unidad I: Introducción a la Graficación por Computadora**.
+Los primeros antecedentes de la graficación por computadora surgieron en la década de 1950, cuando las computadoras comenzaron a utilizarse para mostrar información en forma de gráficos simples, como líneas y puntos. En esa etapa, los dispositivos de salida eran muy limitados y las imágenes eran monocromáticas. Los gráficos eran utilizados principalmente para fines científicos y militares.
 
-Aquí se explica la historia de la graficación por computadora, sus principales áreas de aplicación y algunos aspectos matemáticos que permiten su funcionamiento.
+Durante la década de 1960 se desarrollaron los primeros sistemas interactivos que permitían modificar gráficos en tiempo real. En este periodo surgieron conceptos fundamentales como las primitivas gráficas (puntos, líneas y polígonos), así como los primeros sistemas de diseño asistido por computadora (CAD), que revolucionaron áreas como la ingeniería y la arquitectura.
 
-La graficación por computadora es una parte importante de la informática moderna, ya que permite crear imágenes, animaciones y simulaciones que se utilizan en videojuegos, películas, arquitectura, medicina y muchas otras áreas.
+En los años 70 se perfeccionaron los algoritmos matemáticos para generar líneas, círculos y curvas con mayor precisión. También comenzaron a desarrollarse técnicas básicas de modelado tridimensional y sombreado.
 
----
+La década de 1980 marcó un avance importante con la aparición de las computadoras personales y las tarjetas gráficas. Las interfaces gráficas de usuario (GUI) comenzaron a reemplazar las interfaces basadas en texto, facilitando el uso de gráficos en entornos más accesibles. En esta etapa crecieron significativamente los videojuegos y el diseño digital.
 
-# Objetivo
+En los años 90 y principios del siglo XXI, el desarrollo de las Unidades de Procesamiento Gráfico (GPU) permitió realizar cálculos complejos de manera más rápida y eficiente. Esto impulsó el modelado 3D avanzado, la animación digital y los efectos especiales en la industria del cine y los videojuegos.
 
-El objetivo de este trabajo es comprender los conceptos básicos relacionados con:
-
-- Historia y evolución de la graficación por computadora  
-- Áreas donde se utiliza actualmente  
-- Principios matemáticos utilizados para generar gráficos  
-
-También se busca entender la importancia de la graficación por computadora dentro del desarrollo tecnológico actual.
+Actualmente, la graficación por computadora es fundamental en áreas como la realidad virtual, la realidad aumentada, la inteligencia artificial, la simulación científica y la medicina. Las técnicas modernas como el renderizado en tiempo real y el trazado de rayos han permitido alcanzar niveles de realismo cada vez mayores.
 
 ---
 
-# Unidad I. Introducción a la graficación por computadora
+### 1.2. Áreas de aplicación
+
+La graficación por computadora tiene múltiples aplicaciones en distintos campos profesionales y científicos.
+
+En el diseño gráfico se utiliza para la creación de logotipos, ilustraciones, material publicitario y contenido visual para medios digitales e impresos. En la animación y el cine permite desarrollar personajes, escenarios y efectos especiales que enriquecen la producción audiovisual.
+
+En la industria de los videojuegos se emplea para crear entornos interactivos en dos y tres dimensiones, incorporando iluminación, texturas y efectos visuales avanzados. En arquitectura e ingeniería, el diseño asistido por computadora facilita la elaboración de planos, modelos estructurales y simulaciones antes de la construcción física.
+
+En medicina, la graficación por computadora se utiliza para procesar y analizar imágenes médicas como radiografías, tomografías y resonancias magnéticas, contribuyendo a diagnósticos más precisos. En educación, permite desarrollar simulaciones y materiales interactivos que mejoran la comprensión de conceptos complejos.
+
+También es fundamental en la simulación científica, donde se representan fenómenos físicos y matemáticos mediante modelos digitales. Además, se aplica en realidad virtual y aumentada para crear entornos inmersivos utilizados en entrenamiento, entretenimiento e industria.
 
 ---
 
-## 1.1 Historia y evolución de la graficación por computadora
+### 1.3. Aspectos matemáticos de la graficación
 
-La graficación por computadora es la rama de la informática que se encarga de crear, modificar y mostrar imágenes utilizando computadoras.
+La base de la graficación por computadora es matemática. Sin el uso de principios matemáticos no sería posible representar imágenes digitales con precisión.
 
-Los primeros desarrollos comenzaron en los años 50 y 60. En ese tiempo las computadoras solo podían mostrar líneas simples o figuras básicas.
+La geometría permite definir puntos, líneas, curvas y polígonos que conforman los objetos digitales. En gráficos tridimensionales se utilizan vértices, aristas y caras para formar modelos sólidos.
 
-Uno de los avances más importantes fue el sistema Sketchpad creado en 1963 por Ivan Sutherland. Este programa permitía dibujar directamente en la pantalla con un lápiz óptico y es considerado uno de los primeros sistemas de gráficos interactivos.
+Los sistemas de coordenadas cartesianas permiten ubicar objetos en el espacio, ya sea en dos dimensiones (x, y) o en tres dimensiones (x, y, z). El álgebra lineal es fundamental, ya que mediante vectores y matrices se realizan transformaciones como traslación, rotación, escalado y reflexión.
 
-Durante los años 70 y 80 comenzaron a desarrollarse algoritmos para generar imágenes más complejas y también aparecieron los primeros sistemas de diseño asistido por computadora.
+Las transformaciones geométricas permiten modificar la posición, orientación y tamaño de los objetos sin alterar su estructura básica. La interpolación se utiliza para calcular valores intermedios entre puntos, lo cual es esencial en animaciones y degradados de color.
 
-En los años 90 la tecnología avanzó gracias a las tarjetas gráficas y los gráficos en 3D. Esto permitió crear videojuegos y películas con efectos visuales mucho más realistas.
-
-Actualmente la graficación por computadora utiliza tecnologías como el modelado 3D, la animación digital, la simulación física y la realidad virtual.
+El cálculo matemático también interviene en la generación de curvas suaves, superficies complejas y efectos de iluminación, permitiendo obtener representaciones visuales más realistas.
 
 ---
 
-## 1.2 Áreas de aplicación
+### 1.4. Modelos del color: RGB, CMY, HSV y HSL
 
-La graficación por computadora se utiliza en muchas áreas.
+Los modelos de color son sistemas que permiten representar y manipular colores en medios digitales y físicos.
 
-### Videojuegos
-Permite crear mundos virtuales, personajes, escenarios y efectos visuales en tiempo real.
+El modelo RGB (Red, Green, Blue) es un modelo aditivo utilizado en dispositivos electrónicos como monitores y pantallas. Combina luz roja, verde y azul para formar otros colores. Cuando los tres colores están en su máxima intensidad se obtiene el blanco. Cada canal suele manejar valores numéricos de 0 a 255.
 
-### Cine y animación
-Se utilizan gráficos generados por computadora para crear efectos especiales, personajes digitales y escenarios completos.
+El modelo CMY (Cian, Magenta y Amarillo) es un modelo sustractivo utilizado en impresión. Funciona absorbiendo luz en lugar de emitirla. Generalmente se complementa con el color negro, formando el modelo CMYK, para mejorar la profundidad y el contraste en materiales impresos.
 
-### Arquitectura e ingeniería
-Se usan programas de diseño asistido por computadora para crear modelos de edificios, máquinas y diferentes estructuras.
+El modelo HSV (Hue, Saturation, Value) organiza el color en tres componentes: tono, saturación y valor. El tono representa el tipo de color, la saturación indica la intensidad y el valor determina el brillo. Este modelo facilita la selección intuitiva de colores en programas de diseño.
 
-### Medicina
-Permite visualizar el interior del cuerpo humano mediante imágenes generadas por estudios médicos.
-
-### Educación
-Se utilizan simulaciones y modelos visuales para facilitar el aprendizaje.
-
-### Publicidad y diseño
-Las empresas utilizan gráficos digitales para crear anuncios, animaciones y contenido visual.
-
----
-
-## 1.3 Aspectos matemáticos de la graficación
-
-La graficación por computadora se basa en diferentes conceptos matemáticos.
-
-### Sistema de coordenadas
-
-Las imágenes se representan mediante puntos.
-
-En 2D  
-(x, y)
-
-En 3D  
-(x, y, z)
-
-Estas coordenadas permiten ubicar objetos dentro de una escena.
-
-### Vectores
-
-Los vectores representan dirección y movimiento.
-
-Ejemplo:
-
-V = (x, y, z)
-
-### Transformaciones geométricas
-
-Permiten modificar los objetos.
-
-Traslación → mover  
-Rotación → girar  
-Escalamiento → cambiar tamaño
-
-Estas operaciones normalmente se realizan utilizando matrices.
-
-### Proyecciones
-
-Permiten convertir objetos 3D en imágenes 2D para mostrarlos en la pantalla.
-
-- Proyección paralela  
-- Proyección en perspectiva
-
-### Renderizado
-
-Es el proceso final donde la computadora calcula colores, luces, sombras y texturas para generar la imagen final.
-
----
-
-## 1.4 Modelos del color: RGB, CMY, HSV y HSL
-
-Los modelos de color son sistemas que permiten representar colores de forma digital para que puedan ser utilizados en computadoras, pantallas, impresoras y programas de diseño. Cada modelo usa diferentes formas de combinar colores para generar una gran variedad de tonalidades.
-
-En la graficación por computadora los modelos de color son muy importantes porque permiten controlar la iluminación, las texturas y la apariencia de los objetos dentro de una escena.
-
-### Modelo RGB
-
-El modelo RGB (Red, Green, Blue) es uno de los más utilizados en computadoras, televisores y dispositivos móviles.
-
-Este modelo se basa en la combinación de tres colores de luz:
-
-- Rojo (Red)  
-- Verde (Green)  
-- Azul (Blue)
-
-Cada color puede tener valores entre 0 y 255.
-
-Ejemplos:
-
-Rojo → (255, 0, 0)  
-Verde → (0, 255, 0)  
-Azul → (0, 0, 255)  
-Blanco → (255, 255, 255)  
-Negro → (0, 0, 0)
-
-Cuando estos colores se combinan en diferentes cantidades se pueden generar millones de colores. Este modelo es el que utilizan la mayoría de las pantallas.
-
-### Modelo CMY
-
-El modelo CMY (Cyan, Magenta, Yellow) se utiliza principalmente en impresoras.
-
-A diferencia del modelo RGB, este modelo funciona mediante la absorción de la luz usando tintas.
-
-Sus colores principales son:
-
-- Cyan  
-- Magenta  
-- Amarillo
-
-Al combinar estos colores se pueden obtener otros tonos.
-
-Por ejemplo:
-
-Cyan + Magenta = Azul  
-Cyan + Amarillo = Verde  
-Magenta + Amarillo = Rojo
-
-En impresión profesional se usa una variante llamada CMYK, donde se agrega el color negro para mejorar la calidad.
-
-### Modelo HSV
-
-El modelo HSV (Hue, Saturation, Value) representa los colores de una forma más parecida a cómo los percibe el ojo humano.
-
-Está compuesto por tres elementos:
-
-Hue (Matiz)  
-Representa el tipo de color dentro del círculo cromático.
-
-Saturation (Saturación)  
-Indica qué tan intenso o puro es el color.
-
-Value (Valor)  
-Indica el nivel de brillo del color.
-
-Este modelo se utiliza mucho en programas de edición de imágenes y diseño.
-
-### Modelo HSL
-
-El modelo HSL (Hue, Saturation, Lightness) es similar al modelo HSV, pero maneja la iluminación de manera diferente.
-
-Sus componentes son:
-
-Hue (Matiz)  
-Tipo de color.
-
-Saturation (Saturación)  
-Intensidad del color.
-
-Lightness (Luminosidad)  
-Indica qué tan claro u oscuro es el color.
-
-Este modelo es muy utilizado en diseño web y en herramientas de edición de gráficos.
+El modelo HSL (Hue, Saturation, Lightness) es similar al HSV, pero utiliza luminosidad en lugar de valor. Permite ajustar la claridad del color sin modificar completamente su tono base.
 
 ---
 
